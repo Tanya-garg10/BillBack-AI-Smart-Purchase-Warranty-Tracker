@@ -2,8 +2,6 @@
 
 BillBack AI is a neo-luxury purchase vault that turns invoices into structured purchase records, tracks return deadlines, monitors active warranties, and generates ready-to-submit warranty claim packs — all in one place.
 
----
-
 ## Features
 
 - **Invoice Upload & Extraction** — Upload PDF or image invoices; OpenAI GPT-4o extracts product name, seller, price, return window, and warranty period automatically
@@ -13,8 +11,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 - **Ask BillBack AI** — Natural language chat interface to query purchases, warranties, and deadlines
 - **Analytics Dashboard** — Spend breakdown by category across all tracked purchases
 - **AWS Integration** — Amazon S3 for invoice storage, DynamoDB for purchase records, EventBridge for scheduled deadline scanning
-
----
 
 ## Tech Stack
 
@@ -27,8 +23,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 | Database | Amazon DynamoDB |
 | Events | Amazon EventBridge |
 | Animations | Motion (Framer Motion) |
-
----
 
 ## Getting Started
 
@@ -79,8 +73,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
-
 ## Project Structure
 
 ```
@@ -101,8 +93,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 └── public/                    # Static assets
 ```
 
----
-
 ## Available Scripts
 
 | Command | Description |
@@ -111,8 +101,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 | `npm run build` | Build frontend + bundle server for production |
 | `npm run start` | Run production build |
 | `npm run lint` | TypeScript type check |
-
----
 
 ## API Endpoints
 
@@ -123,8 +111,6 @@ BillBack AI is a neo-luxury purchase vault that turns invoices into structured p
 | `POST` | `/api/invoices/process` | Extract invoice data via OpenAI + store in DynamoDB |
 | `GET` | `/api/purchases` | Fetch all purchases from DynamoDB |
 | `POST` | `/api/eventbridge/check-deadlines` | Trigger EventBridge deadline scanner |
-
----
 
 ## License
 
