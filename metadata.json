@@ -1,0 +1,8 @@
+{
+  "name": "BillBack AI",
+  "description": "The neo-luxury purchase vault. Turn invoices into structured purchase records, track return deadlines and warranties, and prepare evidence for warranty claims.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_OPENAI_API"
+  ]
+}

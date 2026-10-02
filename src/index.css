@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --obsidian: #101310;
+    --deep-forest: #17251F;
+    --emerald-accent: #B7F36B;
+    --warm-ivory: #F4F1E8;
+    --muted-stone: #A6AAA1;
+    --subtle-bronze: #B8A27B;
+    --soft-red: #E77E72;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #F4F1E8;
+    background-color: #101310;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    selection-background-color: #B7F36B;
+    selection-color: #101310;
+  }
+
+  ::selection {
+    background-color: #B7F36B;
+    color: #101310;
+  }
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Subtle neo-luxury card depth */
+.vault-panel {
+  background-color: #17251F;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.vault-card {
+  background-color: #131A15;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.vault-ivory-panel {
+  background-color: #F4F1E8;
+  color: #101310;
+}
+
+/* Glow effects */
+.emerald-glow-subtle {
+  box-shadow: 0 0 40px -10px rgba(183, 243, 107, 0.15);
+}
+
+.emerald-ring {
+  box-shadow: 0 0 0 1px #B7F36B;
+}
